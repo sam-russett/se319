@@ -3,82 +3,82 @@ Jason Delacruz and Sam Russett
 Feb 19, 2023
 Assignment 1 - Catalog of Products 
  -->
- <!doctype html>
- <html lang="en">
-   <head>
-     <meta charset="utf-8">
-     <meta name="viewport" content="width=device-width, initial-scale=1">
-     <meta name="description" content="">
-     <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
-     <meta name="generator" content="Hugo 0.108.0">
-     <title>Random Items Catalog</title>
- 
-     <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/album/">
- 
-     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
-     <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
- 
-     <style>
-       .bd-placeholder-img {
-         font-size: 1.125rem;
-         text-anchor: middle;
-         -webkit-user-select: none;
-         -moz-user-select: none;
-         user-select: none;
-       }
- 
-       @media (min-width: 768px) {
-         .bd-placeholder-img-lg {
-           font-size: 3.5rem;
-         }
-       }
- 
-       .b-example-divider {
-         height: 3rem;
-         background-color: rgba(0, 0, 0, .1);
-         border: solid rgba(0, 0, 0, .15);
-         border-width: 1px 0;
-         box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
-       }
- 
-       .b-example-vr {
-         flex-shrink: 0;
-         width: 1.5rem;
-         height: 100vh;
-       }
- 
-       .bi {
-         vertical-align: -.125em;
-         fill: currentColor;
-       }
- 
-       .nav-scroller {
-         position: relative;
-         z-index: 2;
-         height: 2.75rem;
-         overflow-y: hidden;
-       }
- 
-       .nav-scroller .nav {
-         display: flex;
-         flex-wrap: nowrap;
-         padding-bottom: 1rem;
-         margin-top: -1px;
-         overflow-x: auto;
-         text-align: center;
-         white-space: nowrap;
-         -webkit-overflow-scrolling: touch;
-       }
- 
-       .pricetag {
-         color: red;
-       }
-     </style>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.108.0">
+    <title>Random Items Catalog</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/album/">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+
+      .b-example-divider {
+        height: 3rem;
+        background-color: rgba(0, 0, 0, .1);
+        border: solid rgba(0, 0, 0, .15);
+        border-width: 1px 0;
+        box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+      }
+
+      .b-example-vr {
+        flex-shrink: 0;
+        width: 1.5rem;
+        height: 100vh;
+      }
+
+      .bi {
+        vertical-align: -.125em;
+        fill: currentColor;
+      }
+
+      .nav-scroller {
+        position: relative;
+        z-index: 2;
+        height: 2.75rem;
+        overflow-y: hidden;
+      }
+
+      .nav-scroller .nav {
+        display: flex;
+        flex-wrap: nowrap;
+        padding-bottom: 1rem;
+        margin-top: -1px;
+        overflow-x: auto;
+        text-align: center;
+        white-space: nowrap;
+        -webkit-overflow-scrolling: touch;
+      }
+
+      .pricetag {
+        color: red;
+      }
+    </style>
  
      
-   </head>
-   <body>
+  </head>
+  <body>
      
  <header>
    <div class="collapse bg-dark" id="navbarHeader">
@@ -87,11 +87,13 @@ Assignment 1 - Catalog of Products
          <div class="col-sm-8 col-md-7 py-4">
            <h4 class="text-white">About</h4>
            <p style="color: white">Below is a catalog of a variety of top-selling products sold on Amazon.</p>
+           <p style="color: white">Didn't find what you were looking for? Try searching at <a href="https://www.amazon.com/">Amazon's Website</a></p>
          </div>
          <div class="col-sm-4 offset-md-1 py-4">
-           <h4 class="text-white">Contact</h4>
+           <h4 class="text-white">Links</h4>
            <ul class="list-unstyled">
-             <li><a href="information.html" class="text-white">Email me</a></li>
+             <li><a href="information.html" class="text-white">Team member information</a></li>
+             <li><a href="index.html" class="text-white">Main Page</a></li>
            </ul>
          </div>
        </div>
@@ -139,13 +141,13 @@ Assignment 1 - Catalog of Products
              <!-- <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg> -->
              <img src="./images/amazon fire hd 8 tablet.jpg" alt="amazon fire hd 8 tablet" height="300px">
              <div class="card-body">
-                 <p class="pricetag">$59.99</p>
-               <p class="card-text">Amazon Fire HD 8 tablet, 8” HD Display, 32 GB, updated processor, great for movies and books, latest model (2022 release), Black.</p>
-               <div class="d-flex justify-content-between align-items-center">
-                 <div class="btn-group">
-                   <button type="button" class="btn btn-sm btn-outline-secondary"><a href="https://www.amazon.com/All-new-Fire-HD-8-tablet/dp/B099Z8HLHT/ref=zg-bs_pc_sccl_1/147-1175954-0322021?pd_rd_w=UrHOR&content-id=amzn1.sym.309d45c5-3eba-4f62-9bb2-0acdcf0662e7&pf_rd_p=309d45c5-3eba-4f62-9bb2-0acdcf0662e7&pf_rd_r=K015EHACZ4YAG15SWSX4&pd_rd_wg=aE651&pd_rd_r=e4efec85-a121-4632-942e-02b92412899f&pd_rd_i=B099Z8HLHT&psc=1">View</a></button>
+                <p class="pricetag">$59.99</p>
+                <p class="card-text">Amazon Fire HD 8 tablet, 8” HD Display, 32 GB, updated processor, great for movies and books, latest model (2022 release), Black.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary"><a href="https://www.amazon.com/All-new-Fire-HD-8-tablet/dp/B099Z8HLHT/ref=zg-bs_pc_sccl_1/147-1175954-0322021?pd_rd_w=UrHOR&content-id=amzn1.sym.309d45c5-3eba-4f62-9bb2-0acdcf0662e7&pf_rd_p=309d45c5-3eba-4f62-9bb2-0acdcf0662e7&pf_rd_r=K015EHACZ4YAG15SWSX4&pd_rd_wg=aE651&pd_rd_r=e4efec85-a121-4632-942e-02b92412899f&pd_rd_i=B099Z8HLHT&psc=1">View</a></button>
                    
-                 </div>
+                  </div>
                  <small class="text-muted">9 mins</small>
                </div>
              </div>
@@ -258,7 +260,6 @@ Assignment 1 - Catalog of Products
  
  
      <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
- 
        
    </body>
  </html>
