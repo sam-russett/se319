@@ -1,0 +1,91 @@
+{
+    "TV": [
+        {
+            "productId": "product001_1",
+            "productName": "Amazon Fire TV",
+            "brand": "Amazon",
+            "description": "Amazon Fire TV 50\" Omni Series 4K UHD smart TV, hands-free with Alexa",
+            "price": "309.99",
+            "url": "https://www.amazon.com/amazon-fire-tv-50-inch-omni-series-4k-smart-tv/dp/B08T6F8YBH/ref=sr_1_1_ffob_sspa?crid=1BFXL49GB4128&keywords=tvs&qid=1678414764&sprefix=tvs%2Caps%2C102&sr=8-1-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEyMkxYODlWOUhRVzdRJmVuY3J5cHRlZElkPUEwNTY2MDI1Mk1EUlRPT1RTOTNBSSZlbmNyeXB0ZWRBZElkPUEwNDc2MzkyMVUySVlHTlEwTUQyNyZ3aWRnZXROYW1lPXNwX2F0ZiZhY3Rpb249Y2xpY2tSZWRpcmVjdCZkb05vdExvZ0NsaWNrPXRydWU=",
+            "pic": "./images/tv1.jpg\" alt=\"amazon fire tv 50 inch"
+        },
+        {
+            "productId": "product001_2",
+            "productName": "Amazon Fire TV",
+            "brand": "Amazon",
+            "description": "Amazon Fire TV 43\" 4-Series 4K UHD smart TV",
+            "price": "249.99",
+            "url": "https://www.amazon.com/amazon-fire-tv-43-inch-4-series-4k-smart-tv/dp/B08SWD2SCK/ref=sr_1_2_ffob_sspa?crid=1BFXL49GB4128&keywords=tvs&qid=1678415493&sprefix=tvs%2Caps%2C102&sr=8-2-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUFFSEJDWVVPTkQ1RjAmZW5jcnlwdGVkSWQ9QTA3OTY3NjUxNVVTMkhDNDZBWDk3JmVuY3J5cHRlZEFkSWQ9QTA1MTE4MDdGUEJUTVVFSkhCWFAmd2lkZ2V0TmFtZT1zcF9hdGYmYWN0aW9uPWNsaWNrUmVkaXJlY3QmZG9Ob3RMb2dDbGljaz10cnVl",
+            "pic": "./images/tv2.jpg\" alt=\"amazon fire tv 43 inch"
+        },
+        {
+            "productId": "product001_3",
+            "productName": "Insignia TV",
+            "brand": "Insignia",
+            "description": "INSIGNIA 32-inch Class F20 Series Smart HD 720p Fire TV (NS-32F201NA23, 2022 Model)",
+            "price": "109.99",
+            "url": "https://www.amazon.com/All-New-Insignia-32-inch-Class-NS-32F201NA23/dp/B09ZLTMWWH/ref=sr_1_3?crid=1BFXL49GB4128&keywords=tvs&qid=1678415493&sprefix=tvs%2Caps%2C102&sr=8-3",
+            "pic": "./images/tv3.jpg\" alt=\"insignia 32 inch tv 2022 model"
+        }
+    ],
+
+    "smartwatch": [
+        {
+            "productId": "product011_1",
+            "productName": "Samsung Smartwatch",
+            "brand": "Samsung",
+            "description": "SAMSUNG Galaxy Watch 5 40mm LTE Smartwatch w/ Body, Health, Fitness and Sleep Tracker, Improved Battery, Sapphire Crystal Glass, Enhanced GPS Tracking, US Version, Pink Gold Bezel w/ Pink Band",
+            "price": "329.99",
+            "url": "https://www.amazon.com/SAMSUNG-Smartwatch-Improved-Sapphire-Enhanced/dp/B0B2J6TWPP/ref=sr_1_1_sspa?crid=XSFX9B1FVMUL&keywords=smart+watch&qid=1678549873&sprefix=smart%2Caps%2C187&sr=8-1-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUFFNVBZSE1IN0dGTTEmZW5jcnlwdGVkSWQ9QTA3NzkzNjZOTTE0NjVBU1dROTgmZW5jcnlwdGVkQWRJZD1BMDcyMjQ0MERaMEtDUURESU9WTCZ3aWRnZXROYW1lPXNwX2F0ZiZhY3Rpb249Y2xpY2tSZWRpcmVjdCZkb05vdExvZ0NsaWNrPXRydWU=",
+            "pic": "./images/smartwatch1.jpg\" alt=\"samsung galaxy watch 5 40mm"
+        },
+        {
+            "productId": "product012_1",
+            "productName": "Samsung Smartwatch",
+            "brand": "Samsung",
+            "description": "SAMSUNG Galaxy Watch Pro 5 45mm LTE Smartwatch w/ Body, Health, Fitness and Sleep Tracker, Improved Battery, Sapphire Crystal Glass, GPS Route Tracking, Titanium Frame, US Version, Black",
+            "price": "449.00",
+            "url": "https://www.amazon.com/SAMSUNG-Smartwatch-Improved-Sapphire-Tracking/dp/B0B2JFNZSD/ref=sr_1_2_sspa?crid=XSFX9B1FVMUL&keywords=smart+watch&qid=1678549873&sprefix=smart%2Caps%2C187&sr=8-2-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUFFNVBZSE1IN0dGTTEmZW5jcnlwdGVkSWQ9QTA3NzkzNjZOTTE0NjVBU1dROTgmZW5jcnlwdGVkQWRJZD1BMDc0ODcyNFk1R0xLSEJVTzhaWCZ3aWRnZXROYW1lPXNwX2F0ZiZhY3Rpb249Y2xpY2tSZWRpcmVjdCZkb05vdExvZ0NsaWNrPXRydWU=",
+            "pic": "./images/smartwatch2.jpg\" alt=\"samsung galaxy watch pro 5 45mm"
+        },
+        {
+            "productId": "product013_1",
+            "productName": "Kalinco Smartwatch",
+            "brand": "Kalinco",
+            "description": "Smart Watch, KALINCO Fitness Tracker with Heart Rate Monitor, Blood Pressure, Blood Oxygen Tracking, 1.4 Inch Touch Screen Smartwatch Fitness Watch for Women Men Compatible with Android iPhone iOS",
+            "price": "24.59",
+            "url": "https://www.amazon.com/KALINCO-Pressure-Tracking-Smartwatch-Compatible/dp/B09BTNKMYR/ref=sr_1_3?crid=XSFX9B1FVMUL&keywords=smart+watch&qid=1678549873&sprefix=smart%2Caps%2C187&sr=8-3",
+            "pic": "./images/smartwatch3.jpg\" alt=\"kalinco smart watch 1.4 inch touch screen"
+        }
+    ],
+
+    "TabletAndComputer": [
+        {
+            "productId": "product030_1",
+            "productName": "Amazon Fire Tablet",
+            "brand": "Amazon",
+            "description": "Amazon Fire HD 8 tablet, 8” HD Display, 32 GB, updated processor, great for movies and books, latest model (2022 release), Black.",
+            "price": "59.99",
+            "url": "https://www.amazon.com/All-new-Fire-HD-8-tablet/dp/B099Z8HLHT/ref=zg-bs_pc_sccl_1/147-1175954-0322021?pd_rd_w=UrHOR&content-id=amzn1.sym.309d45c5-3eba-4f62-9bb2-0acdcf0662e7&pf_rd_p=309d45c5-3eba-4f62-9bb2-0acdcf0662e7&pf_rd_r=K015EHACZ4YAG15SWSX4&pd_rd_wg=aE651&pd_rd_r=e4efec85-a121-4632-942e-02b92412899f&pd_rd_i=B099Z8HLHT&psc=1",
+            "pic": "./images/amazon fire hd 8 tablet.jpg\" alt=\"amazon fire hd 8 tablet"
+        },
+        {
+            "productId": "product031_1",
+            "productName": "Lenovo Laptop",
+            "brand": "Lenovo",
+            "description": "Lenovo 15.6\" IdeaPad 1 Laptop, AMD Dual-core Processor, 15.6\" HD Anti-Glare Display, Wi-Fi 6 and Bluetooth 5.0, HDMI, Windows 11 Home in S Mode(20GB RAM | 1TB SSD)",
+            "price": "399.00",
+            "url": "https://www.amazon.com/Lenovo-IdeaPad-Dual-core-Processor-Anti-Glare/dp/B0BMWBF3B1/ref=sr_1_1_sspa?crid=UPCMD14IKIWF&keywords=laptops&qid=1678551243&sprefix=laptops%2Caps%2C181&sr=8-1-spons&smid=A2HR3WADFB8IU9&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEyQzhTVEVOMTRPTDhaJmVuY3J5cHRlZElkPUEwMTIwNzA1MkJBRDlNM1pJUUFNUSZlbmNyeXB0ZWRBZElkPUEwNTMxMzkwMUlLQTNMREFOUVcxJndpZGdldE5hbWU9c3BfYXRmJmFjdGlvbj1jbGlja1JlZGlyZWN0JmRvTm90TG9nQ2xpY2s9dHJ1ZQ&th=1",
+            "pic": "./images/computer1.jpg\" alt=\"lenovo 15.6 inch ideapad 1 laptop"
+        },
+        {
+            "productId": "product032_1",
+            "productName": "HP Notebook",
+            "brand": "HP",
+            "description": "HP 15 Notebook, 15.6\" HD Screen, Intel Core i3-1115G4, 12GB DDR4 RAM, 256GB PCIe SSD, Webcam, HDMI, SD Card Reader, Wi-Fi, Windows 11 Home, Natural Silver",
+            "price": "399.00",
+            "url": "https://www.amazon.com/HP-15-Notebook-i3-1115G4-Windows/dp/B0BN6W57TV/ref=sr_1_2_sspa?crid=UPCMD14IKIWF&keywords=laptops&qid=1678551243&sprefix=laptops%2Caps%2C181&sr=8-2-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEyQzhTVEVOMTRPTDhaJmVuY3J5cHRlZElkPUEwMTIwNzA1MkJBRDlNM1pJUUFNUSZlbmNyeXB0ZWRBZElkPUEwNDgzMTk2MlNCRjVBNEdGMUhRViZ3aWRnZXROYW1lPXNwX2F0ZiZhY3Rpb249Y2xpY2tSZWRpcmVjdCZkb05vdExvZ0NsaWNrPXRydWU=",
+            "pic": "./images/computer 2.jpg\" alt=\"hp 15 notebook 15.6 inch"
+        }
+    ]
+}
