@@ -46,56 +46,65 @@ export const Products = [
     },
     {
       "id": 6,
-      "title": "Puntoco Leisure Pants Men",
-      "price": 8.79,
-      "description": "Special Fabric/Fashion design It is made of high quality materials, durable for your daily wearing! This is a great gift for your lovers or yourself.",
+      "title": "Men Letter Graphic Flap Pocket Drawstring Waist Cargo Pants",
+      "price": 12.48,
+      "description": "Color: Black, Style: Street, Pattern: Letter, Type: Cargo, Wasit Line: Natural, Length: Long.",
       "category": "Men's Pants",
-      "image": "https://fakestoreapi.com/img/71YAIFU48IL._AC_UL640_QL65_ML3_.jpg",
-      "rating": { "rate": 4.0, "count": 400 }
+      "image": "https://img.ltwebstatic.com/images3_pi/2021/08/27/163005271711882ebe92cd4e130a6c1da38f6c41e4_thumbnail_900x.webp",
+      "rating": { "rate": 4.8, "count": 400 }
+    },
+    {
+      "id": 7,
+      "title": "Men Japanese Letter & Wave Print Tee",
+      "price": 11.49,
+      "description": "Color:	Khaki, Style: Casual, Pattern Type:	Letter, Graphic, Neckline: Round Neck, Sleeve Length:	Short Sleeve, Sleeve Type:	Regular Sleeve, Length:	Regular, Fit Type:	Regular Fit, Fabric:	Medium Stretch, Material:	Fabric, Composition:	100% Polyester",
+      "category": "Shirts",
+      "image": "https://img.ltwebstatic.com/images3_pi/2022/06/20/16556885357b7da4c4c9a622870037dc093cf69865_thumbnail_900x.webp",
+      "rating": { "rate": 4.7, "count": 203 }
+    },
+    {
+      "id": 8,
+      "title": "Men's Essential Tee in Black Pattern",
+      "price": 25.00,
+      "description": "Substantial 180g softAF fabric that means this shirt will hold up through every scenario. Our non-marketed tee featuring a straight hem and relaxed-fit silhouette that's slightly roomier through the shoulders and body than our core fit.",
+      "category": "Shirts",
+      "image": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcRe4HE-BuM5UsUj5qho6IqMLHbSgLpX5km4YOSuVqKD6NPdq3-tBWJcGbiTPYodMHUTQqVHjeEpprWNRiCwY54e8G4Of2SwHc9fxiPsoG6pZCtzqu0rYWLd1Q",
+      "rating": { "rate": 5.0, "count": 470 }
     },
     {
       "id": 9,
-      "title": "WD 2TB Elements Portable External Hard Drive - USB 3.0 ",
-      "price": 64,
-      "description": "USB 3.0 and USB 2.0 Compatibility Fast data transfers Improve PC Performance High Capacity; Compatibility Formatted NTFS for Windows 10, Windows 8.1, Windows 7; Reformatting may be required for other operating systems; Compatibility may vary depending on user’s hardware configuration and operating system",
-      "category": "electronics",
-      "image": "https://fakestoreapi.com/img/61IBBVJvSDL._AC_SY879_.jpg",
-      "rating": { "rate": 3.3, "count": 203 }
+      "title": "BREEZE",
+      "price": 29.00,
+      "description": "Printed on super soft Comfort Colors, our shirts are premium quality with vibrant colors on both the design and shirt itself. Pre-shrunk for the perfect fit. We promise you will love it!",
+      "category": "Shirts",
+      "image": "https://cdn.shopify.com/s/files/1/1146/0376/products/Breeze_Back_FINAL_1_1680x.jpg?v=1558995352",
+      "rating": { "rate": 5.0, "count": 235 }
     },
     {
       "id": 10,
-      "title": "SanDisk SSD PLUS 1TB Internal SSD - SATA III 6 Gb/s",
-      "price": 109,
-      "description": "Easy upgrade for faster boot up, shutdown, application load and response (As compared to 5400 RPM SATA 2.5” hard drive; Based on published specifications and internal benchmarking tests using PCMark vantage scores) Boosts burst write performance, making it ideal for typical PC workloads The perfect balance of performance and reliability Read/write speeds of up to 535MB/s/450MB/s (Based on internal testing; Performance may vary depending upon drive capacity, host device, OS and application.)",
-      "category": "electronics",
-      "image": "https://fakestoreapi.com/img/61U7T1koQqL._AC_SX679_.jpg",
-      "rating": { "rate": 2.9, "count": 470 }
+      "title": "DISTRICT TRUCKER HAT",
+      "price": 38.00,
+      "description": "The elevated version of your classic cap, our District Trucker Hat has an Alo embroidered logo and mesh back with adjustable snap closure.",
+      "category": "Hats",
+      "image": "https://cdn.shopify.com/s/files/1/2185/2813/products/A0467U_01_b1_a2_750x.jpg?v=1666209001",
+      "rating": { "rate": 4.2, "count": 340 }
     },
     {
-      "id": 15,
-      "title": "BIYLACLESEN Women's 3-in-1 Snowboard Jacket Winter Coats",
-      "price": 56.99,
-      "description": "Note:The Jackets is US standard size, Please choose size as your usual wear Material: 100% Polyester; Detachable Liner Fabric: Warm Fleece. Detachable Functional Liner: Skin Friendly, Lightweigt and Warm.Stand Collar Liner jacket, keep you warm in cold weather. Zippered Pockets: 2 Zippered Hand Pockets, 2 Zippered Pockets on Chest (enough to keep cards or keys)and 1 Hidden Pocket Inside.Zippered Hand Pockets and Hidden Pocket keep your things secure. Humanized Design: Adjustable and Detachable Hood and Adjustable cuff to prevent the wind and water,for a comfortable fit. 3 in 1 Detachable Design provide more convenience, you can separate the coat and inner as needed, or wear it together. It is suitable for different season and help you adapt to different climates",
-      "category": "women's clothing",
-      "image": "https://fakestoreapi.com/img/51Y5NI-I5jL._AC_UX679_.jpg",
-      "rating": { "rate": 2.6, "count": 235 }
+      "id": 11,
+      "title": "Panel Washed Cotton Unconstructed Caps",
+      "price": 5.63,
+      "description": "Available in your choice of black, brown, khaki, mustard yellow, navy blue, olive, red and Texas orange, our cheap caps will soon prove ideal for your advertising events.",
+      "category": "Hats",
+      "image": "https://belusaweb.s3.amazonaws.com/product-images/colors/6-panel-washed-cotton-unconstructed-caps-cap21-royal-blue.jpg",
+      "rating": { "rate": 2.8, "count": 679 }
     },
     {
-      "id": 16,
-      "title": "Lock and Love Women's Removable Hooded Faux Leather Moto Biker Jacket",
-      "price": 29.95,
-      "description": "100% POLYURETHANE(shell) 100% POLYESTER(lining) 75% POLYESTER 25% COTTON (SWEATER), Faux leather material for style and comfort / 2 pockets of front, 2-For-One Hooded denim style faux leather jacket, Button detail on waist / Detail stitching at sides, HAND WASH ONLY / DO NOT BLEACH / LINE DRY / DO NOT IRON",
-      "category": "women's clothing",
-      "image": "https://fakestoreapi.com/img/81XH0e8fefL._AC_UY879_.jpg",
-      "rating": { "rate": 2.9, "count": 340 }
-    },
-    {
-      "id": 17,
-      "title": "Rain Jacket Women Windbreaker Striped Climbing Raincoats",
-      "price": 39.99,
-      "description": "Lightweight perfet for trip or casual wear---Long sleeve with hooded, adjustable drawstring waist design. Button and zipper front closure raincoat, fully stripes Lined and The Raincoat has 2 side pockets are a good size to hold all kinds of things, it covers the hips, and the hood is generous but doesn't overdo it.Attached Cotton Lined Hood with Adjustable Drawstrings give it a real styled look.",
-      "category": "women's clothing",
-      "image": "https://fakestoreapi.com/img/71HblAHs5xL._AC_UY879_-2.jpg",
+      "id": 12,
+      "title": "Fear of God Essentials New Era 59Fifty Fitted Hat",
+      "price": 50.00,
+      "description": "This Fear of God Essentials New Era 59Fifty Fitted Hat FW21 Black features a logo of the fear of God brand, which is fixed on the front panel of the hat. An official MLB Batterman logo can be found at the back and a Kelly-Green logo fitted at the under visor.",
+      "category": "Hats",
+      "image": "https://images.stockx.com/images/Fear-of-God-Eseentials-New-Era-59Fifty-Fitted-Hat-FW21-Black.jpg?fit=fill&bg=FFFFFF&w=78&h=56&fm=avif&auto=compress&dpr=2&trim=color&updated_at=1629495727&q=60",
       "rating": { "rate": 3.8, "count": 679 }
     }
 
