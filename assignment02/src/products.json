@@ -1,4 +1,4 @@
-export const Products = [
+[
     {
       "id": 1,
       "title": "Air Jordan 1 Mid Men's Shoes",
@@ -57,7 +57,7 @@ export const Products = [
       "id": 7,
       "title": "Men Japanese Letter & Wave Print Tee",
       "price": 11.49,
-      "description": "Color:	Khaki, Style: Casual, Pattern Type:	Letter, Graphic, Neckline: Round Neck, Sleeve Length:	Short Sleeve, Sleeve Type:	Regular Sleeve, Length:	Regular, Fit Type:	Regular Fit, Fabric:	Medium Stretch, Material:	Fabric, Composition:	100% Polyester",
+      "description": "Khaki, Casual, Letter, Graphic, Round Neck, Short Sleeve, Regular Sleeve, Regular, Regular Fit, Medium Stretch, Fabric, 100% Polyester",
       "category": "Shirts",
       "image": "https://img.ltwebstatic.com/images3_pi/2022/06/20/16556885357b7da4c4c9a622870037dc093cf69865_thumbnail_900x.webp",
       "rating": { "rate": 4.7, "count": 203 }
@@ -100,7 +100,7 @@ export const Products = [
     },
     {
       "id": 12,
-      "title": "Fear of God Essentials New Era 59Fifty Fitted Hat",
+      "title": "Fear of God Essentials New Era 59 Fifty Fitted Hat",
       "price": 50.00,
       "description": "This Fear of God Essentials New Era 59Fifty Fitted Hat FW21 Black features a logo of the fear of God brand, which is fixed on the front panel of the hat. An official MLB Batterman logo can be found at the back and a Kelly-Green logo fitted at the under visor.",
       "category": "Hats",
