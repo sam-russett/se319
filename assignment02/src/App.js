@@ -1,7 +1,5 @@
 import "./App.css";
-// import logo from "./logo.png";
 import items from "./products"
-// import {Categories} from "./Categories"
 import React, { useState, useEffect } from "react";
 
 export const App = () => {
@@ -10,7 +8,8 @@ export const App = () => {
   const [ProductsCategory, setProductsCategory] = useState(items);
   // var ProductsCategory = Products;
   const [cart, setCart] = useState([]);
-    const [cartTotal, setCartTotal] = useState(0);
+  const [cartTotal, setCartTotal] = useState(0);
+  const [query, setQuery] = useState('');
     useEffect(() => {total();}, [cart]);
     
     const total = () => {
@@ -45,6 +44,17 @@ export const App = () => {
       </div>
   ));
 
+  const handleChange = (e) => {
+    setQuery(e.target.value);
+    console.log("Step 6 : in handleChange, Target Value :",e.target.value," Query Value :",query);
+    const results = items.filter(eachProduct => {
+    if (e.target.value === "") return ProductsCategory;
+      return eachProduct.title.toLowerCase().includes(e.target.value.toLowerCase())
+    });
+    setProductsCategory(results);
+  }
+    
+
   function howManyofThis(id) {
     let hmot = cart.filter((cartItem) => cartItem.id === id);
     return hmot.length;
@@ -55,6 +65,9 @@ export const App = () => {
     return <div className='category-section fixed'>
 	  {console.log("Step 3 : in render_products ")}
       <h2 className="text-3xl font-extrabold tracking-tight text-gray-600 category-title">Products ({ProductsCategory.length})</h2>
+      <div className="py-10">
+        <input className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" type="search" value={query} onChange={handleChange} />
+      </div>
 
       <div className="m-6 p-3 mt-10 ml-0 grid grid-cols-1 gap-y-10 gap-x-6 sm:grid-cols-2 lg:grid-cols-6 xl:gap-x-10" style={{ maxHeight: '700px', overflowY: 'scroll' }}>
         {/* Loop Products */}
